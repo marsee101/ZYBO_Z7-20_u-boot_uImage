@@ -23,7 +23,7 @@ https://releases.linaro.org/debian/images/alip-armhf/latest/
 また、PYNQボードのイメージもBOOT.bin とデバイスツリー、uImageを入れ替えることで動作しました。（ただしVer.1で試しています）
 http://pynq.readthedocs.io/en/latest/getting_started.html
 
-ただし、ZYBO Z7-20はPYNQとハードウェアが違うので、ビットファイルをコンフィギュレーションしても動作しません。また、壊れるかもしれません？壊れて保証できないので絶対にやらないでください。
+ただし、ZYBO Z7-20はPYNQとハードウェアが違うので、ビットファイルをコンフィギュレーションしても動作しません。また、壊れるかもしれません？壊れても保証できないので絶対にやらないでください。
 
 注）BOOT_Z7_gpio.bin と devicetree_Z7_gpio.dtb を使う場合には、BOOT.bin と devicetree.dtb にリネームしてください。
 
